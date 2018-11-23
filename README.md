@@ -189,6 +189,9 @@ if dist_max_i < len(s):
 cv.line(res, (cx,cy), farthest_point, (0,255,255), 2)
 cv.line(mask, (cx,cy), farthest_point, (0,255,255), 2)
 ```
+At the end, the result must look like this:
+
+![Alt text](Files/)
 
 #### Recognizing the Gestures and controlling the Brush:
 This step is very basic. If you're paying attention, in the last part of the code with have a variable called `'num_def'` and it was counting the number of defects that our code detect in the Convex Hull so we're going to take adventage of this and use for Recognizing the Gestures that we do in front of the camera.
