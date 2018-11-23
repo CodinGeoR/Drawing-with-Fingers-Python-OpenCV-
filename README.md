@@ -21,7 +21,7 @@
 ## Process
 #### Using Camshift algorithm
 
-As we know, the Camshift algorithm consist of taking the first frame of a video to map it colors with an histogram to later on track these all around the video, so to start you need to run the program in Python and inmediatly put your hand in front of the camera.
+As we know, the Camshift algorithm consist of taking the first frame of a video to map its colors with an histogram to later on track these all around the video, so to start you need to run the program in Python and inmediatly put your hand in front of the camera.
 After this, it must open two windows and some Trackbars. Those ones are for setting the mask for the histogram that we talk before.
 
 ![Alt text](Files/)
