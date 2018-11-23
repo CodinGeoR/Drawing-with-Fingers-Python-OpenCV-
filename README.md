@@ -1,1 +1,1 @@
-# Drawing-with-Fingers-Python-OpenCV-
+# Drawing with Fingers (Python+OpenCV)
