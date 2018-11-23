@@ -1,5 +1,6 @@
 # Drawing with Fingers (Python+OpenCV)
 >Note: I'm using Python 3.7 and OpenCV 3.4.3, for people using others versions of these some instructions may be different.
+>Disclaimer: The program works ok but is a little bit noisy sometimes, it depends of the lights, the camera and how well it do the histogram at the beginning. I'm open to suggestions or changes that you maybe have and want to provide :)
 
 ## Enviroment
 - OS: Windows 10
@@ -259,7 +260,7 @@ The last thing to consider is that if you want to recover the mouse controll jus
 
 To exit the program click on any window except for the Paint one and press `'ESC'`.
 
-![Alt text](Files/Result.png)
+- Full Demo: [Click Here:](https://www.youtube.com/watch?v=wmkJEVdTn3Y)
 
 ----------------------
 ## References & Tutorials
