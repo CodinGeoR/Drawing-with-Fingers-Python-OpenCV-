@@ -262,7 +262,7 @@ To exit the program click on any window except for the Paint one and press `'ESC
 ![Alt text](Files/Result.png)
 
 ----------------------
-##References & Tutorials
+## References & Tutorials
 
 1. OpenCV documentation: https://docs.opencv.org/3.4.3/
 2. Camshift Algorithm: https://docs.opencv.org/3.4.3/db/df8/tutorial_py_meanshift.html
