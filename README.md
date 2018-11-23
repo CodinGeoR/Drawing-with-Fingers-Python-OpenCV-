@@ -120,7 +120,7 @@ else:
         far = tuple(max_con[f][0])
 ```
 
-The next thing is to do simple Math to use the triangles made for the fingers:
+The next thing is to do simple Math to use the triangles made by the fingers:
 
 ```python
 a = math.sqrt((end[0] - start[0])**2 + (end[1] - start[1])**2)
