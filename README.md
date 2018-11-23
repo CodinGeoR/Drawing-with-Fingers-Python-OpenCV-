@@ -24,11 +24,11 @@
 As we know, the Camshift algorithm consist of taking the first frame of a video to map its colors with an histogram to later on track these all around the video, so to start you need to run the program in Python and inmediatly put your hand in front of the camera.
 After this, it must open two windows and some Trackbars. Those ones are for setting the mask for the histogram that we talk before.
 
-![Alt text](Files/)
+![Alt text](Files/HSV.png)
 
 Move the Ranges of Hue, Saturation and Value to define just your hand in the "Filter" window until you see something like this:
 
-![Alt text](Files/)
+![Alt text](Files/Result_m.png)
 
 When you're done, press `'s'` to set the mask, the windows must close and it will pop-up Paint and a new Trackbar called Threshold.
 
@@ -52,7 +52,7 @@ res = cv.bitwise_and(frame, frame, mask = fgMask)
 
 All to get the Foreground image:
 
-![Alt text](Files/)
+![Alt text](Files/Bg_sub.png)
 
 So to do that, following our "User Guide", you need to first take your hand off the camera vision and next click on the window of the Trackbar and press `'c'`. It must open four new windows that shows us different things of our process like the Background Subtraction one, a Threshold, the Result of the process and the Original one.
 
@@ -86,7 +86,7 @@ _,rThresh = cv.threshold(resMask, vThresh, 255, cv.THRESH_BINARY)
 
 It consist in a Dilation of the image that basically helps with noise in the shape of the hand, an Opening Process that helps to reduce the noise in the Backgound of the image, a Median Blur that smooth the edges of the hand to later convert it to Grayscale to finally make a threshold that give us a binary image of the hand. It looks like this:
 
-![Alt text](Files/)
+![Alt text](Files/Threshold.png)
 
 #### Finding and Drawing Contours, Centroid and Farthest Point
 Our image is now a binary version of the hand that is cropped for just detect the hand. The next step is to find contours and define the maximum one:
@@ -191,7 +191,7 @@ cv.line(mask, (cx,cy), farthest_point, (0,255,255), 2)
 ```
 At the end, the result must look like this:
 
-![Alt text](Files/)
+![Alt text](Files/Contours.png)
 
 #### Recognizing the Gestures and controlling the Brush:
 This step is very basic. If you're paying attention, in the last part of the code with have a variable called `'num_def'` and it was counting the number of defects that our code detect in the Convex Hull so we're going to take adventage of this and use for Recognizing the Gestures that we do in front of the camera.
@@ -257,9 +257,9 @@ As you can see it consider the number of defects that are around the Convex Hull
 When you are ready to begin the gesture recognition and the contours around your hand are drawn correctly, press `'a'` to activate the tracking. The code will actually give you some feedback to the "Live" window showing you how many fingers are you showing, however, how we are counting defects, as you can imagine is no difference if you show to it one finger o cero fingers more than a bit of noise from the claculus of the farthest point.
 The last thing to consider is that if you want to recover the mouse controll just take your hand off the camera vision.
 
-![Alt text](Files/)
-
 To exit the program click on any window except for the Paint one and press `'ESC'`.
+
+![Alt text](Files/Result.png)
 
 ----------------------
 ##References & Tutorials
