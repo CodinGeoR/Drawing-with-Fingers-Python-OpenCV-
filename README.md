@@ -18,15 +18,6 @@
 - Press `'a'` to activate the hand drawing
 - Press `'ESC'` to exit
 
-- Put the hand in front of the camera to capture it
-- Move the Trackbars of Hue, Saturation and Value to Set up the histogram and define your hand
-- Press `'s'` when you're done
-- It must open Paint and another Trackbar to set the Threshold Value
-- Click on the Threshold window, take the hand off the camera vision and press `'c'` to capture the Background
-- Put again your hand in front of the camera and move the Trackbar value to adjust the Threshold
-- When you see your hand contours drawn correctly in the "Result" window, press `'a'` to activate the hand drawing
-- To exit, click on any window except the Paint one and press `'ESC'`
-
 ## Process
 #### Using Camshift algorithm
 
@@ -258,14 +249,14 @@ As you can see it consider the number of defects that are around the Convex Hull
 - If you shows to it **four**, it will **change to the red color**
 - If you shows to it **five**, it will **change to the black color**
 
->Disclamer: As the system works with coordinates maybe it won't work propertly but you can only change the coordinates values inside the mouse position brackets
+>Disclaimer: As the system works with coordinates maybe it won't work propertly but you can only change the coordinates values inside the mouse position brackets
 
-The code will actually give you some feedback to the "Live" window showing you how many fingers are you showing, however, how we are counting defects, as you can imagine is no difference if you show to it one finger o cero fingers more than a bit of noise from the claculus of the farthest point.
+When you are ready to begin the gesture recognition and the contours around your hand are drawn correctly, press `'a'` to activate the tracking. The code will actually give you some feedback to the "Live" window showing you how many fingers are you showing, however, how we are counting defects, as you can imagine is no difference if you show to it one finger o cero fingers more than a bit of noise from the claculus of the farthest point.
 The last thing to consider is that if you want to recover the mouse controll just take your hand off the camera vision.
 
 ![Alt text](Files/)
 
-
+To exit the program click on any window except for the Paint one and press `'ESC'`.
 ----------------------
 ##References & Tutorials
 
