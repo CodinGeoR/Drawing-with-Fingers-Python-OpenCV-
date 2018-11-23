@@ -257,6 +257,7 @@ The last thing to consider is that if you want to recover the mouse controll jus
 ![Alt text](Files/)
 
 To exit the program click on any window except for the Paint one and press `'ESC'`.
+
 ----------------------
 ##References & Tutorials
 
