@@ -54,7 +54,7 @@ All to get the Foreground image:
 
 ![Alt text](Files/Bg_sub.png)
 
-So to do that, following our "User Guide", you need to first take your hand off the camera vision and next click on the window of the Trackbar and press `'c'`. It must open four new windows that shows us different things of our process like the Background Subtraction one, a Threshold, the Result of the process and the Original one.
+So to do that, following our "User Guide", you need to first take your hand off the camera vision and next click on the window of the Trackbar and press `'c'`. It must open four new windows that shows us different things of our process like the Background Subtraction one, a Threshold, the Result of the process and the Original one. At this point you're able to change the value of the Threshold with the Threshold Trackbar.
 
 #### Setting the image for the final Result
 The first thing that I do is create a black image with Numpy:
