@@ -146,7 +146,7 @@ Finally we draw the lines around the hand:
 cv.line(res, start, end, (0,0,255), 2)
 ```
 
-Now for the centoid we use the function Moments and do the logic operations to find the center of mass of our hand in the two coordinates:
+Now for the centoid we use the function called "Moments" and do the logic operations to find the center of mass of our hand in the two coordinates:
 
 ```python
 moment = cv.moments(max_con)
@@ -169,7 +169,7 @@ cv.circle(mask, (cx,cy), 5, (0,255,0), 2)
 ```
 
 The last thing to consider is the farthest point form our centroid. This is because we want to draw with our finger making it the farthest point.
-It is done with some claculus:
+It is done with some calculus:
 
 ```python
 s = defects[:,0][:,0]
