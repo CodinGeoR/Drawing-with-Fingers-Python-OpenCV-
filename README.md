@@ -195,7 +195,7 @@ At the end, the result must look like this:
 ![Alt text](Files/Contours.png)
 
 #### Recognizing the Gestures and controlling the Brush:
-This step is very basic. If you're paying attention, in the last part of the code with have a variable called `'num_def'` and it was counting the number of defects that our code detect in the Convex Hull so we're going to take adventage of this and use for Recognizing the Gestures that we do in front of the camera.
+This step is very basic. If you're paying attention, in the last part of the code we have a variable called `'num_def'` and it was counting the number of defects that our code detect in the Convex Hull so we're going to take adventage of this and use for Recognizing the Gestures that we do in front of the camera.
 Let see how it works:
 
 ```python
