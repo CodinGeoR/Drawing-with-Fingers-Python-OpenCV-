@@ -260,7 +260,7 @@ The last thing to consider is that if you want to recover the mouse control just
 
 To exit the program click on any window except for the Paint one and press `'ESC'`.
 
-- Full Demo: [Click Here:](https://www.youtube.com/watch?v=wmkJEVdTn3Y)
+- Full Demo: [Click Here](https://www.youtube.com/watch?v=wmkJEVdTn3Y)
 
 ----------------------
 ## References & Tutorials
