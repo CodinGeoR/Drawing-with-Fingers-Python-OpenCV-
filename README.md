@@ -247,11 +247,11 @@ if num_def == 1:
 ```
 
 As you can see it consider the number of defects that are around the Convex Hull and makes different things:
-- If you shows to it **one**, the mouse will follows the movement of your finger to draw
-- If you shows to it **two**, it will select the **Brush tool** and comes back to your finger automatically
-- If you shows to it **three**, it will select the **Eraser tool** and comes back to your finger automatically
-- If you shows to it **four**, it will **change to the red color**
-- If you shows to it **five**, it will **change to the black color**
+- If you shows to the camera **one**, the mouse will follows the movement of your finger to draw
+- If you shows to the camera **two**, it will select the **Brush tool** and comes back to your finger automatically
+- If you shows to the camera **three**, it will select the **Eraser tool** and comes back to your finger automatically
+- If you shows to the camera **four**, it will **change to the red color**
+- If you shows to the camera **five**, it will **change to the black color**
 
 >Disclaimer: As the system works with coordinates maybe it won't work propertly but you can only change the coordinates values inside the mouse position brackets
 
