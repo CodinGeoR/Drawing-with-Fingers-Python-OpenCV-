@@ -253,7 +253,7 @@ As you can see it consider the number of defects that are around the Convex Hull
 - If you shows to the camera **four**, it will **change to the red color**
 - If you shows to the camera **five**, it will **change to the black color**
 
->Disclaimer: As the system works with coordinates maybe it won't work propertly but you can only change the coordinates values inside the mouse position brackets
+>Disclaimer: As the system works with pixel coordinates values maybe it won't work propertly in your pc but you can change those inside the mouse position brackets to fix it
 
 When you are ready to begin the gesture recognition and the contours around your hand are drawn correctly, press `'a'` to activate the tracking. The code will actually give you some feedback to the "Live" window showing you how many fingers are you showing, however, how we are counting defects, as you can imagine is no difference if you show to it one finger o cero fingers more than a bit of noise from the claculus of the farthest point.
 The last thing to consider is that if you want to recover the mouse controll just take your hand off the camera vision.
