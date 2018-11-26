@@ -255,8 +255,8 @@ As you can see it consider the number of defects that are around the Convex Hull
 
 >Disclaimer: As the system works with pixel coordinates values maybe it won't work propertly in your pc but you can change those inside the mouse position brackets to fix it
 
-When you are ready to begin the gesture recognition and the contours around your hand are drawn correctly, press `'a'` to activate the tracking. The code will actually give you some feedback to the "Live" window showing you how many fingers are you showing, however, how we are counting defects, as you can imagine is no difference if you show to it one finger o cero fingers more than a bit of noise from the claculus of the farthest point.
-The last thing to consider is that if you want to recover the mouse controll just take your hand off the camera vision.
+When you are ready to begin the gesture recognition and the contours around your hand are drawn correctly, press `'a'` to activate the tracking. The code will actually give you some feedback to the "Live" window showing you how many fingers are you showing to the camera, however how we are counting defects, as you can imagine, there's no difference between showing to it one finger or none more than a bit of noise from the calculus of the farthest point.
+The last thing to consider is that if you want to recover the mouse control just take your hand off the camera vision.
 
 To exit the program click on any window except for the Paint one and press `'ESC'`.
 
